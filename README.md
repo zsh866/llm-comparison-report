@@ -2,17 +2,64 @@
 
 ## 1. 部署结果
 
- 本报告选取了两个主流的中文大语言模型 Qwen 7B-Chat（阿里巴巴）和 ChatGLM（智谱AI & 清华），进行部署测试。
+ 本报告选取了两个主流的中文大语言模型 Qwen 7B-Chat（阿里巴巴）和 ChatGLM（智谱AI & 清华），进行部署测试。相关git clone的截图如下：
+
+#### Qwen 7B-chat
+
+![img]([images/caht_1.png) 
+
+#### ChatGLM
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps2.jpg) 
 
 ## 2. 问答测试结果
 
 #### 2.1 实验采取的问答
 
-1. 请说出以下两句话区别在哪里？ 1、冬天：能穿多少穿多少 2、夏天：能穿多少穿多少
-2. 请说出以下两句话区别在哪里？单身狗产生的原因有两个，一是谁都看不上，二是谁都看不上
+1. 请说出以下两句话区别在哪里？ 1、冬天：能穿多少穿多少 2、夏天：能穿多少穿
+
+多少
+
+2. 请说出以下两句话区别在哪里？单身狗产生的原因有两个，一是谁都看不上，二
+
+是谁都看不上
+
 3. 他知道我知道你知道他不知道吗？ 这句话里，到底谁不知道
 4. 明明明明明白白白喜欢他，可她就是不说。 这句话里，明明和白白谁喜欢谁？
-5. 领导：你这是什么意思？ 小明：没什么意思。意思意思。 领导：你这就不够意思了。 小明：小意思，小意思。领导：你这人真有意思。 小明：其实也没有别的意思。 领导：那我就不好意思了。 小明：是我不好意思。请问：以上 意思 分别是  “ ”什么意思。
+5. 领导：你这是什么意思？ 小明：没什么意思。意思意思。 领导：你这就不够意思
+
+了。 小明：小意思，小意思。领导：你这人真有意思。 小明：其实也没有别的意
+
+思。 领导：那我就不好意思了。 小明：是我不好意思。请问：以上 意思 分别是  “ ”
+
+什么意思。
+
+#### 2.2 模型回答结果
+
+##### Qwen 7B-chat
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps3.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps4.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps5.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps6.jpg)![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps7.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps8.jpg) 
+
+##### ChatGLM
+
+##### ![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps9.jpg)
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps10.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps11.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps12.jpg) 
+
+![img](file:///C:\Users\lenovo\AppData\Local\Temp\ksohtml14948\wps13.jpg) 
+
 ## 3. 大语言模型之间的横向对比分析
 
 本次测试选取了两个主流的中文大语言模型 Qwen 7B-Chat（阿里巴巴）和 ChatGLM（智谱AI & 清华）进行对比分析，测试内容主要围绕中文语义理解与歧义解析类问答题目，涵盖幽默语义、同义反复、语义嵌套、双关表达等典型场景。以下从理解能力、表达准确性与语境保持等维度进行对比分析。
